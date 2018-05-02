@@ -20,6 +20,9 @@ class Stack {
 			return _stack.size();
 		}
 		
+		bool find(const string &elem) const;
+		int count(const string &elem) const;
+		
     private:
     	vector<string> _stack;
 };
